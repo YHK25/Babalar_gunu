@@ -270,12 +270,14 @@
       document.getElementById('lid').style.transform = 'rotateX(0deg)';
       document.getElementById('message').classList.remove('visible');
       isOpen = false;
-    }
-    const audio = document.getElementById("bgm");
+
+      const audio = document.getElementById("bgm");
       audio.pause(); // Müziği durdurur
       audio.currentTime = 0; // İsteğe bağlı: Müziği başa sarar
       hasPlayed = false; // Tekrar çalabilmesi için resetle
     }
+    
+    
   </script>
 </body>
 </html>
